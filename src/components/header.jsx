@@ -8,9 +8,7 @@ class Header extends Component {
 	render() {
 		return (
 			<header className="App-header">
-				<p>
-					{this.props.title} = {this.props.count}
-				</p>
+				<p>{this.props.title}</p>
 			</header>
 		);
 	}

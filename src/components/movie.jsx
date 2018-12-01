@@ -4,11 +4,14 @@ class Movie extends Component {
 	state = {};
 	render() {
 		return (
-			<div>
-				<p>{this.props.name}</p>
-				<p>{this.props.year}</p>
-				<img src={this.props.imgUrl} alt="" />
-				<p>{this.props.description}</p>
+			<div className="create">
+				<h3>
+					{' '}
+					<strong>{this.props.movie.Title}</strong>{' '}
+				</h3>
+				<img src={this.props.movie.Poster} alt="" />
+				<p>{this.props.movie.Year}</p>
+				<p>{this.props.movie.imdbID}</p>
 			</div>
 		);
 	}
