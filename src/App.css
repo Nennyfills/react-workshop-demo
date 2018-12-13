@@ -1,68 +1,81 @@
 .App {
-	text-align: center;
-	/* float: left; */
+  text-align: center;
+  /* float: left; */
 }
 .mov {
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 .create {
-	width: 25%;
-	margin: 1em 2em 0 2em;
+  width: 25%;
+  margin: 1em 2em 0 2em;
 }
-.mov .spinner {
-	position: absolute;
-	left: 43%;
-	top: 3rem;
-	/* width: 10rem;
+.spinner {
+  padding-right: 2000%;
+  position: absolute;
+  left: 43%;
+  top: 3rem;
+  /* width: 10rem;
 	height: 10rem; */
 }
-/* .searchButton {
-	border: solid #282c34;
-	width: 40%;
-	margin: 1% 0% 0% 25%;
-} */
+
 .App-logo {
-	animation: App-logo-spin infinite 20s linear;
-	height: 40vmin;
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
 }
+
+.imgM {
+  width: 300px;
+  height: 300px;
+  display: block;
+  background-size: cover;
+}
+.caption {
+  background-color: black;
+  width: 300px;
+  height: 100px;
+  display: block;
+}
+
 .searchI {
-	height: 40px;
-	width: 400px;
-	border: #282c34 solid 2px;
-	color: #282c34;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 50px;
+  width: 400px;
+  border: #282c34 solid 2px;
+  color: #282c34;
+  padding: 6px 0 9px 0;
+  margin: 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .searchB {
-	height: 46px;
-	width: 100px;
-	background-color: #282c34;
-	border: #282c34;
-	color: aliceblue;
-	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 46px;
+  width: 100px;
+  background-color: #282c34;
+  border: #282c34;
+  color: aliceblue;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .App-header {
-	background-color: #282c34;
-	min-height: 2em;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
+  background-color: #282c34;
+  min-height: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-link {
-	color: #61dafb;
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
