@@ -19,7 +19,7 @@ cd <folder-name>
 
 - Clone this repository:
 ```
-git clone https://github.com/samie820/react-workshop-demo.git .
+git clone https://github.com/nennyfills/react-workshop-demo.git .
 ```
 
 - Install all the project's dependencies:
